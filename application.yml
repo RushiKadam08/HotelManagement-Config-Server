@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: Config-Server
+    name: Config-Default-Profile
   cloud:
     config:
       server:
