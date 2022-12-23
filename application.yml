@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/RushiKadam08/HotelManagement-Config_Server
+          clone-on-start: true
+
+
+
