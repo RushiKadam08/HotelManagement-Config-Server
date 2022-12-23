@@ -1,12 +1,8 @@
-
-spring:
-  application:
-    name: Config-Default-Profile
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/RushiKadam08/HotelManagement-Config_Server
-          clone-on-start: true
-
-
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultzone: http://localhost:8761/eureka
